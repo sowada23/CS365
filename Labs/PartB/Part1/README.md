@@ -19,12 +19,13 @@ This project implements Part 1 of the **Breakthrough Board Game AI** as required
 1. Clone this repository:
    ```bash
    git clone <repository_url>
+   cd Labs
    cd PartB
    cd Part1
    ```
 2. Run the game script:
    ```bash
-   python3 main.py
+   python3 breakthrough_setup.py
    ```
 
 ### Example Output
@@ -44,7 +45,7 @@ Possible moves for O: [((6, 0), (5, 0)), ((6, 1), (5, 1)), ...]
 ```
 
 ## Code Structure
-- `main.py` - Main implementation of the game.
+- `breakthrough_setup.py` - Main implementation of the game.
 - `README.md` - This documentation file.
 
 ## Future Work

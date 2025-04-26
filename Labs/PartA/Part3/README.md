@@ -7,7 +7,7 @@ This project implements **Breadth-First Search (BFS), Greedy Best-First Search (
 To execute the search algorithms, run the Python script. The script will automatically solve three maze files using BFS, GBFS, and A* Search:
 
 ```bash
-python3 main.py
+python3 single_searchers.py
 ```
 
 ## Output

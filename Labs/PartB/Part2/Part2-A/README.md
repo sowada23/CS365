@@ -22,7 +22,7 @@ This repository contains a Python implementation for Part 2-A of the CS365 Lab B
 3. **Run the script** using the following command:
 
    ```bash
-   python3 main.py
+   python3 breakthrough_ai.py
    ```
 
 4. **Observe the output** in the terminal. The program will display:

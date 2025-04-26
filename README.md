@@ -41,34 +41,28 @@ This lab focuses on implementing and comparing different search algorithms to so
   - Extended the implementation to include Breadth-First Search (BFS), Greedy Best-First Search (GBFS), and A* Search.
   - Compared the performance of these algorithms on medium and large mazes.
 - **Part 3**: 
-  - Added functionality to handle mazes with multiple prizes.
-  - Optimized the search algorithms for efficiency.
+  - Enhanced the algorithms to handle mazes with multiple prizes.
+  - Optimized the search algorithms for efficiency and scalability.
 
 ### **Lab B: Adversarial Search (Breakthrough Game)**
 This lab involves implementing adversarial search techniques for a two-player board game called Breakthrough.
 
 - **Part 1**: 
-  - Created a basic game engine for Breakthrough.
-  - Implemented a random move generator for testing.
+  - Built a basic game engine for Breakthrough.
+  - Implemented a random move generator for testing the game mechanics.
 - **Part 2**: 
-  - Developed a Minimax algorithm with alpha-beta pruning to play the game intelligently.
-  - Tested the algorithm against the random move generator.
-- **Part 3**: 
-  - Enhanced the AI with heuristics to improve decision-making.
-  - Conducted experiments to evaluate the performance of the AI.
+  - **Part 2-A**: Developed a Minimax algorithm with alpha-beta pruning to play the game intelligently.
+  - **Part 2-B**: Enhanced the AI with heuristics to improve decision-making and tested it against the random move generator.
 
 ### **Lab C: Decision Tree Learning**
 This lab focuses on building a decision tree learner for classification tasks.
 
 - **Part 1**: 
   - Implemented a basic decision tree learner using a recursive algorithm.
-  - Tested the learner on small datasets.
+  - Tested the learner on small datasets to ensure correctness.
 - **Part 2**: 
   - Added cross-validation to evaluate the performance of the decision tree.
-  - Optimized the tree-building process to handle larger datasets.
-- **Part 3**: 
-  - Extended the implementation to include pruning techniques.
-  - Compared the performance of pruned and unpruned trees.
+  - Optimized the tree-building process to handle larger datasets efficiently.
 
 ---
 
@@ -84,7 +78,3 @@ This lab focuses on building a decision tree learner for classification tasks.
 
 3. **Explore the Projects Folder**:
    - The `Projects/` folder contains additional course projects that build on the concepts learned in the labs.
-
----
-
-Feel free to explore and modify the code as needed. If you're new to the folder, start by reading the `README.md` files in each lab part for detailed instructions.

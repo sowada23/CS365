@@ -7,7 +7,7 @@ This project implements **A* Search (A*)** to solve multi-prize maze problems. T
 To execute the multi-prize A* search, run the following command:
 
 ```bash
-python main.py
+python multi_aster.py
 ```
 
 The script will solve four maze files and print the results.

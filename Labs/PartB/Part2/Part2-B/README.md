@@ -23,7 +23,7 @@ Breakthrough is a two-player game where players move pieces forward, aiming to r
 ## Usage
 Run the script to see AI matches:
 ```bash
-python main.py
+python breakthrough_ai2.py
 ```
 
 ## Example Output

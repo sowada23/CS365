@@ -10,22 +10,21 @@ Here is the inner architecture of the `CS365` folder:
 
 ```
 CS365/
-├── Activities/          # Additional exercises and activities
-├── Labs/                # Main lab assignments
-│   ├── PartA/           # Lab A: Search and Pathfinding Algorithms
-│   │   ├── Part1/       # Part 1 of Lab A
-│   │   ├── Part2/       # Part 2 of Lab A
-│   │   └── Part3/       # Part 3 of Lab A
-│   ├── PartB/           # Lab B: Adversarial Search (Breakthrough Game)
-│   │   ├── Part1/       # Part 1 of Lab B
-│   │   ├── Part2/       # Part 2 of Lab B
-│   │   └── Part3/       # Part 3 of Lab B
-│   └── PartC/           # Lab C: Decision Tree Learning
-│       ├── Part1/       # Part 1 of Lab C
-│       ├── Part2/       # Part 2 of Lab C
-│       └── Part3/       # Part 3 of Lab C
-├── Projects/            # Course projects
-└── test.txt             # Placeholder or test file
+├── Activities/             # Additional exercises and activities
+├── Labs/                   # Main lab assignments
+│   ├── PartA/              # Lab A: Search and Pathfinding Algorithms
+│   │   ├── Part1/          # Part 1 of Lab A
+│   │   ├── Part2/          # Part 2 of Lab A
+│   │   └── Part3/          # Part 3 of Lab A
+│   ├── PartB/              # Lab B: Adversarial Search (Breakthrough Game)
+│   │   ├── Part1/          # Part 1 of Lab B
+│   │   └── Part2/          # Part 2 of Lab B
+│   │       ├── Part2-A/    # Part 2-A of Lab B
+│   │       └── Part2-B/    # Part 2-B of Lab B
+│   └── PartC/              # Lab C: Decision Tree Learning
+│       ├── Part1/          # Part 1 of Lab C
+│       └── Part2/          # Part 2 of Lab C
+└── Projects/               # Project folder
 ```
 
 ---
@@ -89,6 +88,3 @@ This lab focuses on building a decision tree learner for classification tasks.
 ---
 
 Feel free to explore and modify the code as needed. If you're new to the folder, start by reading the `README.md` files in each lab part for detailed instructions.
-
-Happy coding!
->>>>>>> e4dd7b5 (Updated README file)

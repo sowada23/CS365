@@ -1,4 +1,4 @@
-x# CS365 Folder Overview
+# CS365 Folder Overview
 
 Welcome to the `CS365` folder! This repository contains all the work and assignments for the CS365 course, organized into three main parts under the `Labs` directory. Below, you'll find an explanation of the folder structure and a summary of what was done in each part of the labs.
 

@@ -45,7 +45,7 @@ The agent (`P`) moves through the maze to collect **prizes (`.`)** while avoidin
 ### **Run the State Model**
 To execute the **state representation and transition model**, run:
 ```bash
-python3 main.py
+python3 maze_setup.py
 ```
 This will:
 1. Load the maze.
@@ -83,4 +83,4 @@ Goal Reached? False
 - Lab Partner (if applicable)
 
 ---
-Run `python3 main.py` to test the state model! 🚀
+Run `python3 maze_setup.py` to test the state model! 🚀

@@ -6,7 +6,7 @@ This project implements **Depth-First Search (DFS)** to solve single-prize maze 
 ## How to Run
 To execute the DFS solver, simply run the Python script. The script will automatically solve three maze files:
 ```bash
-python main.py
+python single_dfs.py
 ```
 
 ## Output

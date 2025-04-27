@@ -5,7 +5,7 @@ This project implements a Decision Tree classifier to diagnose breast cancer bas
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 
 - **Filename:** `data.csv`
 - **Target Column:** `diagnosis`  
@@ -17,7 +17,7 @@ This project implements a Decision Tree classifier to diagnose breast cancer bas
 
 ---
 
-## 🧠 Model Implementation
+## Model Implementation
 
 The classifier used in this project is a **Decision Tree Classifier** from `scikit-learn`. Here's a summary of the pipeline:
 
@@ -42,7 +42,7 @@ The classifier used in this project is a **Decision Tree Classifier** from `scik
 
 ---
 
-## 🌳 Decision Tree Structure
+## Decision Tree Structure
 
 A simplified version of the resulting tree:
 ```

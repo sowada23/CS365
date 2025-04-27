@@ -1,6 +1,6 @@
 # CS365 Folder Overview
 
-Welcome to the `CS365` folder! This repository contains all the work and assignments for the CS365 course, organized into three main parts under the `Labs` directory. Below, you'll find an explanation of the folder structure and a summary of what was done in each part of the labs.
+Welcome to the `CS365` folder! This repository contains all the work and assignments for the CS365 course, organized into three main parts under the `Labs` directory and additional exercises under the `Activities` directory. Below, you'll find an explanation of the folder structure and a summary of what was done in each part of the labs and activities.
 
 ---
 
@@ -10,71 +10,99 @@ Here is the inner architecture of the `CS365` folder:
 
 ```
 CS365/
-├── Activities/             # Additional exercises and activities
-├── Labs/                   # Main lab assignments
-│   ├── PartA/              # Lab A: Search and Pathfinding Algorithms
-│   │   ├── Part1/          # Part 1 of Lab A
-│   │   ├── Part2/          # Part 2 of Lab A
-│   │   └── Part3/          # Part 3 of Lab A
-│   ├── PartB/              # Lab B: Adversarial Search (Breakthrough Game)
-│   │   ├── Part1/          # Part 1 of Lab B
-│   │   └── Part2/          # Part 2 of Lab B
-│   │       ├── Part2-A/    # Part 2-A of Lab B
-│   │       └── Part2-B/    # Part 2-B of Lab B
-│   └── PartC/              # Lab C: Decision Tree Learning
-│       ├── Part1/          # Part 1 of Lab C
-│       └── Part2/          # Part 2 of Lab C
-└── Projects/               # Project folder
+├── Activities/                 # Additional exercises and activities
+│   ├── DicisionTree/           # Breast Cancer Diagnosis using Decision Tree
+│   │   ├── dicision_tree.py
+│   │   ├── data.csv
+│   │   ├── DicisionTree.png
+│   │   └── README.md
+│   └── kNN/                    # Breast Cancer Diagnosis using k-Nearest Neighbors
+│       ├── knn_classifier.py
+│       ├── data.csv
+│       └── README.md
+├── Labs/                       # Main lab assignments
+│   ├── PartA/                  # Lab A: Search and Pathfinding Algorithms
+│   │   ├── Part1/
+│   │   ├── Part2/
+│   │   └── Part3/
+│   ├── PartB/                  # Lab B: Adversarial Search (Breakthrough Game)
+│   │   ├── Part1/
+│   │   └── Part2/
+│   │       ├── Part2-A/
+│   │       └── Part2-B/
+│   └── PartC/                  # Lab C: Decision Tree Learning
+│       ├── Part1/
+│       └── Part2/
+└── Projects/                   # Project folder
 ```
+
+---
+
+## Activities Overview
+
+### **DicisionTree: Breast Cancer Diagnosis using Decision Tree**
+This activity implements a Decision Tree classifier to diagnose breast cancer based on cell nuclei features.
+
+- **What I Did:**
+  1. Preprocessed the dataset by removing unnecessary columns and encoding the target.
+  2. Trained a `DecisionTreeClassifier` (entropy, max depth 4) on 80% of the data.
+  3. Evaluated the model (test accuracy: 95.61%).
+  4. Visualized the tree and interpreted key features.
+  5. Provided a human-readable decision path for medical validation.
+
+- **How to Run:**
+  ```bash
+  python3 dicision_tree.py
+  ```
+
+---
+
+### **kNN: Breast Cancer Diagnosis using k-Nearest Neighbors**
+This activity implements a k-Nearest Neighbors (kNN) classifier for the same diagnosis task.
+
+- **What I Did:**
+  1. Preprocessed the dataset (removed unnecessary columns, encoded target).
+  2. Standardized features using `StandardScaler` for optimal kNN performance.
+  3. Trained a `KNeighborsClassifier` (k=5) on 80% of the data.
+  4. Evaluated the model (e.g., test accuracy: 96.49%).
+  5. Explored the effect of different `k` values and discussed the importance of feature scaling.
+
+- **How to Run:**
+  ```bash
+  python3 knn_classifier.py
+  ```
 
 ---
 
 ## Labs Overview
 
 ### **Lab A: Search and Pathfinding Algorithms**
-This lab focuses on implementing and comparing different search algorithms to solve mazes.
-
-- **Part 1**: 
-  - Implemented Depth-First Search (DFS) to solve simple mazes.
-  - Tested the algorithm on small maze files like `1prize-open.txt`.
-- **Part 2**: 
-  - Extended the implementation to include Breadth-First Search (BFS), Greedy Best-First Search (GBFS), and A* Search.
-  - Compared the performance of these algorithms on medium and large mazes.
-- **Part 3**: 
-  - Enhanced the algorithms to handle mazes with multiple prizes.
-  - Optimized the search algorithms for efficiency and scalability.
+- **Part 1:** Implemented DFS for simple mazes.
+- **Part 2:** Added BFS, GBFS, and A*; compared their performance.
+- **Part 3:** Enhanced algorithms for multiple prizes and optimized efficiency.
 
 ### **Lab B: Adversarial Search (Breakthrough Game)**
-This lab involves implementing adversarial search techniques for a two-player board game called Breakthrough.
-
-- **Part 1**: 
-  - Built a basic game engine for Breakthrough.
-  - Implemented a random move generator for testing the game mechanics.
-- **Part 2**: 
-  - **Part 2-A**: Developed a Minimax algorithm with alpha-beta pruning to play the game intelligently.
-  - **Part 2-B**: Enhanced the AI with heuristics to improve decision-making and tested it against the random move generator.
+- **Part 1:** Built a basic game engine and random move generator.
+- **Part 2-A:** Developed Minimax with alpha-beta pruning.
+- **Part 2-B:** Enhanced AI with heuristics and tested against random moves.
 
 ### **Lab C: Decision Tree Learning**
-This lab focuses on building a decision tree learner for classification tasks.
-
-- **Part 1**: 
-  - Implemented a basic decision tree learner using a recursive algorithm.
-  - Tested the learner on small datasets to ensure correctness.
-- **Part 2**: 
-  - Added cross-validation to evaluate the performance of the decision tree.
-  - Optimized the tree-building process to handle larger datasets efficiently.
+- **Part 1:** Implemented a recursive decision tree learner and tested on small datasets.
+- **Part 2:** Added cross-validation and optimized for larger datasets.
 
 ---
 
 ## How to Use This Repository
 
-1. **Navigate to the Labs Folder**: 
-   - Each lab is organized into its respective folder under `Labs/`.
-   - Inside each part, you'll find Python scripts, maze files, and documentation.
+1. **Navigate to the Activities or Labs Folder:**  
+   Each activity or lab is organized into its respective folder. Inside each part, you'll find Python scripts, datasets, and documentation.
 
-2. **Run the Code**:
-   - Follow the instructions in the `README.md` files inside each lab part to run the code.
-   - Example: To run the DFS maze solver, navigate to `Labs/PartA/Part1/` and execute the script.
+2. **Run the Code:**  
+   Follow the instructions in the `README.md` files inside each activity or lab part to run the code.
 
-3. **Explore the Projects Folder**:
-   - The `Projects/` folder contains additional course projects that build on the concepts learned in the labs.
+3. **Explore the Projects Folder:**  
+   The `Projects/` folder contains additional course projects that build on the concepts learned in the labs and activities.
+
+---
+
+Feel free to explore and modify the code as needed. If you're new to the folder, start by reading the `README.md` files in each activity or lab part for detailed instructions.

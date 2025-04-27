@@ -66,7 +66,7 @@ CS365/
 │   │           └── README.md
 │   └── PartC/                  
 │       ├── Part1/
-│       │   └── README.md
+│       │   └── DicisionTreeDeisgnPlan.pdf
 │       └── Part2/
 │           ├── dicision_tree.py
 │           ├── Report.pdf

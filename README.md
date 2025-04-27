@@ -17,8 +17,9 @@ CS365/
 │   │   ├── DicisionTree.png
 │   │   └── README.md
 │   └── kNN/                    # Breast Cancer Diagnosis using k-Nearest Neighbors
-│       ├── knn_classifier.py
-│       ├── data.csv
+│       ├── kNN.py
+│       ├── knn_before_after.png
+│       ├── drug200.csv
 │       └── README.md
 ├── Labs/                       # Main lab assignments
 │   ├── PartA/                  # Lab A: Search and Pathfinding Algorithms
@@ -64,12 +65,12 @@ This activity implements a k-Nearest Neighbors (kNN) classifier for the same dia
   1. Preprocessed the dataset (removed unnecessary columns, encoded target).
   2. Standardized features using `StandardScaler` for optimal kNN performance.
   3. Trained a `KNeighborsClassifier` (k=5) on 80% of the data.
-  4. Evaluated the model (e.g., test accuracy: 96.49%).
+  4. Evaluated the model (e.g., test accuracy: 70~80%).
   5. Explored the effect of different `k` values and discussed the importance of feature scaling.
 
 - **How to Run:**
   ```bash
-  python3 knn_classifier.py
+  python3 kNN.py
   ```
 
 ---

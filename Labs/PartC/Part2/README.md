@@ -4,7 +4,7 @@ This repository contains the Python implementation of a decision tree learning a
 
 ## Files
 
-- **main.py**  
+- **dicision_tree.py**  
   The main Python program that:
   - Reads a tab-delimited dataset where the first row contains attribute names and the last column is the classification attribute (`yes` or `no`).
   - Builds a decision tree using an entropy-based (ID3) algorithm.
@@ -53,4 +53,4 @@ This dataset, based on Titanic passenger information, demonstrates the applicati
 3. Run the program with a data file as a command-line argument. For example, to run the program on the tennis dataset:
 
    ```bash
-   python3 main.py tennis.txt
+   python3 dicision_tree.py tennis.txt

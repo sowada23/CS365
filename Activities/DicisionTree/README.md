@@ -84,7 +84,7 @@ A simplified version of the resulting tree:
 
 ---
 
-## 🧠 Insights from the Tree
+## Insights from the Tree
 
 - **Key Splitting Feature:** `perimeter_worst` and `concave points_worst` — these are highly effective in differentiating malignant from benign.
 - **Deeper Nodes:** Features like `area_se`, `texture_worst`, and `concavity_mean` help refine predictions.
@@ -92,13 +92,18 @@ A simplified version of the resulting tree:
 
 ---
 
-## 📷 Tree Visualization
+## Tree Visualization
 
 ![Decision Tree](DicisionTree.png)
 
 ---
 
-## ✅ Conclusion
+## How to Run
+```bash
+python3 dicision_tree.py
+```
+
+## Conclusion
 
 This Decision Tree model achieves high classification accuracy and produces an interpretable structure that can be understood by medical professionals. The project demonstrates the effectiveness of classic tree-based models for medical diagnosis tasks.
 

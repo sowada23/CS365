@@ -10,31 +10,71 @@ Here is the inner architecture of the `CS365` folder:
 
 ```
 CS365/
-├── Activities/                 # Additional exercises and activities
-│   ├── DicisionTree/           # Breast Cancer Diagnosis using Decision Tree
+├── Activities/                 
+│   ├── DicisionTree/           
 │   │   ├── dicision_tree.py
 │   │   ├── data.csv
 │   │   ├── DicisionTree.png
 │   │   └── README.md
-│   └── kNN/                    # Breast Cancer Diagnosis using k-Nearest Neighbors
+│   └── kNN/                    
 │       ├── kNN.py
 │       ├── knn_before_after.png
 │       ├── drug200.csv
 │       └── README.md
-├── Labs/                       # Main lab assignments
-│   ├── PartA/                  # Lab A: Search and Pathfinding Algorithms
+├── Labs/                       
+│   ├── PartA/                  
 │   │   ├── Part1/
+│   │   │   ├── 1prize-open.txt
+│   │   │   ├── maze_setup.py
+│   │   │   ├── Part1Design.pdf
+│   │   │   └── README.md
 │   │   ├── Part2/
-│   │   └── Part3/
-│   ├── PartB/                  # Lab B: Adversarial Search (Breakthrough Game)
+│   │   │   ├── 1prize-large.txt
+│   │   │   ├── 1prize-medium.txt
+│   │   │   ├── 1prize-open.txt
+│   │   │   ├── Part2Design.pdf
+│   │   │   ├── single_dfs.py
+│   │   │   └── README.md
+│   │   ├── Part3/
+│   │   │   ├── 1prize-large.txt
+│   │   │   ├── 1prize-medium.txt
+│   │   │   ├── 1prize-open.txt
+│   │   │   ├── Part3Design.pdf
+│   │   │   ├── single_searcher.py
+│   │   │   └── README.md
+│   │   └── Part4/
+│   │       ├── multiprize-micro.txt
+│   │       ├── multiprize-small.txt
+│   │       ├── multiprize-tiny.txt
+│   │       ├── Part4Design.pdf
+│   │       ├── multi_aster.py
+│   │       └── README.md
+│   │
+│   ├── PartB/                  
 │   │   ├── Part1/
+│   │   │   ├── Part1Design.pdf
+│   │   │   ├── breakthrough_setup.py
+│   │   │   └── README.md
 │   │   └── Part2/
 │   │       ├── Part2-A/
+│   │       │   ├── Part2-ADesign.pdf
+│   │       │   ├── breakthrough_ai.py
+│   │       │   └── README.md
 │   │       └── Part2-B/
-│   └── PartC/                  # Lab C: Decision Tree Learning
+│   │           ├── Part2-BDesign.pdf
+│   │           ├── breakthrough_ai2.py
+│   │           └── README.md
+│   └── PartC/                  
 │       ├── Part1/
+│       │   └── README.md
 │       └── Part2/
-└── Projects/                   # Project folder
+│           ├── dicision_tree.py
+│           ├── Report.pdf
+│           ├── pets.txt
+│           ├── tennis.txt
+│           ├── titanic2.txt 
+│           └── README.md
+└── Projects/                   
 ```
 
 ---

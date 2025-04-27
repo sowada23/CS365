@@ -5,23 +5,23 @@ This project demonstrates a **k-Nearest Neighbors (kNN)** algorithm implementati
 
 ---
 
-## 📊 Dataset: `drug200.csv`
+## Dataset: `drug200.csv`
 
 The dataset contains **200 records** representing patients and the drugs they were prescribed based on certain medical attributes.
 
-### 🔍 Features:
+### Features:
 - `Age`: Patient age (numerical)
 - `Sex`: Categorical (`F`, `M`)
 - `BP`: Blood pressure level (`LOW`, `NORMAL`, `HIGH`)
 - `Cholesterol`: Cholesterol level (`NORMAL`, `HIGH`)
 - `Na_to_K`: Sodium-to-potassium ratio (numerical)
 
-### 🎯 Target:
+### Target:
 - `Drug`: Drug prescribed (`DrugY`, `drugX`, `drugC`, `drugA`, `drugB`)
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 The implementation follows these steps:
 
@@ -44,7 +44,7 @@ The implementation follows these steps:
 
 ---
 
-## 📈 Final Output Graph
+## Final Output Graph
 
 The following plot shows the actual result of the kNN classifier before and after assigning a class to the query point.
 
@@ -52,7 +52,7 @@ The following plot shows the actual result of the kNN classifier before and afte
 
 ---
 
-## 🧠 Output Example
+## Output Example
 
 - **5 Nearest Neighbors:** `['drugX', 'drugX', 'drugY', 'drugX', 'drugX']`
 - **Predicted Drug (Majority Vote):** `drugX`
@@ -60,7 +60,7 @@ The following plot shows the actual result of the kNN classifier before and afte
 
 ---
 
-## 🧪 Requirements
+## Requirements
 
 - `pandas`
 - `matplotlib`
@@ -73,7 +73,7 @@ pip install pandas matplotlib scikit-learn
 
 ---
 
-## ▶️ Run the Code
+## Run the Code
 
 The main script is in `kNN.py`. You can run it with:
 
@@ -88,7 +88,7 @@ It will:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This project visualizes the inner workings of kNN by showing the classification process step-by-step in a two-dimensional graph. It’s ideal for learning how instance-based classification works and how majority voting leads to class assignment.
 

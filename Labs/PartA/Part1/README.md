@@ -79,8 +79,7 @@ Goal Reached? False
 - The **goal test** ensures multi-prize scenarios are supported.
 
 ## Contributors
-- Your Name
-- Lab Partner (if applicable)
+- Sora Owada
 
 ---
 Run `python3 maze_setup.py` to test the state model! 🚀

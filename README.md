@@ -74,7 +74,8 @@ CS365/
 │           ├── tennis.txt
 │           ├── titanic2.txt 
 │           └── README.md
-└── Projects/                   
+└── Projects/
+    └── ProjectPlan.pdf                   
 ```
 
 ---

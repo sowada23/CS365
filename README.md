@@ -64,16 +64,26 @@ CS365/
 │   │           ├── Part2-BDesign.pdf
 │   │           ├── breakthrough_ai2.py
 │   │           └── README.md
-│   └── PartC/                  
-│       ├── Part1/
-│       │   └── DicisionTreeDeisgnPlan.pdf
-│       └── Part2/
-│           ├── dicision_tree.py
-│           ├── Report.pdf
-│           ├── pets.txt
-│           ├── tennis.txt
-│           ├── titanic2.txt 
-│           └── README.md
+│   ├── PartC/                  
+│   │   ├── Part1/
+│   │   ├── Part1/
+│   │   │   └── DicisionTreeDeisgnPlan.pdf
+│   │   └── Part2/
+│   │       ├── dicision_tree.py
+│   │       ├── Report.pdf
+│   │       ├── pets.txt
+│   │       ├── tennis.txt
+│   │       ├── titanic2.txt 
+│   │       └── README.md
+│   └── PartD/
+│       ├── Part1
+│       │   ├──
+│       │   ├──
+│       │   └──
+│       └── Part2
+│           ├──
+│           ├──
+│           └──
 └── Projects/
     └── ProjectPlan.pdf                   
 ```

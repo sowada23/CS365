@@ -33,7 +33,7 @@ model.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy', metr
 
 # train our model
 # epoch means how many times deos the model see the same data
-history = model.fit(x_train, y_train, epochs=1,validation_split=0.2)
+history = model.fit(x_train, y_train, epochs=20,validation_split=0.2)
 
 # see the accuracy of the modelimport pandas as pdå
 loss, accuracy = model.evaluate(x_test, y_test)

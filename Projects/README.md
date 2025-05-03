@@ -87,10 +87,10 @@ pip install tensorflow numpy opencv-python matplotlib
 
 ## 📈 Plots
 
-![Loss Plot](loss_plot.png)
+![Loss Plot](./plot/loss_plot.png)
 *Model Loss over 20 Epochs*
 
-![Accuracy Plot](accuracy_plot.png)
+![Accuracy Plot](./plot/accuracy_plot.png)
 *Model Accuracy over 20 Epochs*
 
 ---

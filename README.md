@@ -39,7 +39,7 @@ CS365/
 
 ---
 
-## Activities Overview
+## InclassActivities Overview
 
 ### **DicisionTree: Breast Cancer Diagnosis using Decision Tree**
 This activity implements a Decision Tree classifier to diagnose breast cancer based on cell nuclei features.
@@ -75,23 +75,41 @@ This activity implements a k-Nearest Neighbors (kNN) classifier for the same dia
 
 ---
 
-## Labs Overview
 
-### **Lab A: Search and Pathfinding Algorithms**
-- **Part 1:** Implemented DFS for simple mazes.
-- **Part 2:** Added BFS, GBFS, and A*; compared their performance.
-- **Part 3:** Enhanced algorithms for multiple prizes and optimized efficiency.
+### **Slides Overview**
 
-### **Lab B: Adversarial Search (Breakthrough Game)**
-- **Part 1:** Built a basic game engine and random move generator.
-- **Part 2-A:** Developed Minimax with alpha-beta pruning.
-- **Part 2-B:** Enhanced AI with heuristics and tested against random moves.
+The `InClassActivities/slides` folder contains various slide decks from course lectures. Each slide file covers key concepts and takeaways from the lectures. Below is a brief summary for each:
 
-### **Lab C: Decision Tree Learning**
-- **Part 1:** Implemented a recursive decision tree learner and tested on small datasets.
-- **Part 2:** Added cross-validation and optimized for larger datasets.
+- **1.2.pdf**
+  - **Summary:**  
+    Introduces the fundamentals of search algorithms and pathfinding concepts.
+  - **Key Takeaways:**  
+    - Understanding basic search methods (e.g., DFS and BFS).
+    - Importance of algorithm efficiency and complexity analysis.
+
+- **8.1.pdf**
+  - **Summary:**  
+    Focuses on adversarial search and game AI concepts, laying the groundwork for the Breakthrough game project.
+  - **Key Takeaways:**  
+    - Overview of minimax algorithms and the need for pruning strategies such as alpha-beta pruning.
+    - Basic principles of designing game engines and evaluating AI performance.
+
+- **8.2.pdf**
+  - **Summary:**  
+    Delves deeper into AI enhancements, including heuristic functions and advanced search optimizations.
+  - **Key Takeaways:**  
+    - The impact of heuristics on improving AI decision-making.
+    - Comparisons between basic and enhanced adversarial search strategies.
+
+- **8.3.pdf**
+  - **Summary:**  
+    Covers advanced topics in decision tree learning and model evaluation techniques.
+  - **Key Takeaways:**  
+    - How decision trees work and methods for controlling overfitting.
+    - Evaluation metrics and the trade-offs between model complexity and interpretability.
 
 ---
+
 
 ## How to Use This Repository
 

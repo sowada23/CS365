@@ -149,70 +149,73 @@ python main.py
 ## Slides Overview
 
 ### 1.1: Birth of AI (1.1.pdf)
-- **Brief Summary:** The Dartmouth Conference in 1956 coined “artificial intelligence” and introduced the Logic Theorist, while Turing’s 1950 proposal of a “child machine” and milestones like Deep Blue, Watson, and AlphaGo trace AI’s evolution from rule-based logic to modern deep learning. citeturn1file0
+- **Brief Summary:** The Dartmouth Conference in 1956 coined “artificial intelligence” and introduced the Logic Theorist, while Turing’s 1950 proposal of a “child machine” and milestones like Deep Blue, Watson, and AlphaGo trace AI’s evolution from rule-based logic to modern deep learning. 
+
 - **Key Takeaways:**
   - AI originated with logic-based programs and formal definitions at Dartmouth.
   - Turing’s vision of machine learning laid groundwork for adaptive AI.
   - Landmark systems (Deep Blue, Watson, AlphaGo) demonstrate progression to ML-driven intelligence.
 
 ### 3.1: GANs Overview (3.1.pdf)
-- **Brief Summary:** Introduces GANs as generator–discriminator adversarial pairs, training dynamics, and applications from image synthesis to medical imaging, along with challenges like mode collapse. citeturn1file9
+- **Brief Summary:** Introduces GANs as generator–discriminator adversarial pairs, training dynamics, and applications from image synthesis to medical imaging, along with challenges like mode collapse. 
 - **Key Takeaways:**
   - GANs learn data distributions without explicit density models.
   - Balancing generator/discriminator is crucial for stability.
   - GANs require significant compute and careful hyperparameter tuning.
 
 ### 3.3: Planar Graphs (3.3.pdf)
-- **Brief Summary:** Defines planar graphs, Euler’s formula (v–e+f=2), and proofs of non-planarity via K₅, linking to polyhedral representations. citeturn1file8
+- **Brief Summary:** Defines planar graphs, Euler’s formula (v–e+f=2), and proofs of non-planarity via K₅, linking to polyhedral representations. 
+
 - **Key Takeaways:**
   - Euler’s formula characterizes planar structures.
   - K₅ and K_{3,3} are classic non-planar examples.
   - Planarity connects graph theory to 3D polyhedra.
 
 ### 3.4: Graph Coloring (3.4.pdf)
-- **Brief Summary:** Explains graph coloring, chromatic number, greedy algorithms, and the four-color theorem with applications in scheduling and resource allocation. citeturn1file7
+- **Brief Summary:** Explains graph coloring, chromatic number, greedy algorithms, and the four-color theorem with applications in scheduling and resource allocation. 
 - **Key Takeaways:**
   - Chromatic number is key to valid coloring.
   - Greedy methods are simple but not always optimal.
   - Planar graph theorems underpin many practical applications.
 
 ### 5.1: Chapter 18: Multiple Decision Making (5.1.pdf)
-- **Brief Summary:** Summarizes decision-making under uncertainty via influence diagrams, utility maximization, and VoI concepts for domains like medical diagnosis and game AI. citeturn1file6
+- **Brief Summary:** Summarizes decision-making under uncertainty via influence diagrams, utility maximization, and VoI concepts for domains like medical diagnosis and game AI.
 - **Key Takeaways:**
   - Influence diagrams extend Bayesian networks with decisions and utilities.
   - Backward induction yields optimal policies.
   - VoI guides when to seek additional data.
 
 ### 6.1: AI Decision Strategies & KNN (6.1.pdf)
-- **Brief Summary:** Covers decision networks and policies for sequential choice under uncertainty, and KNN’s instance-based classification using distance metrics. citeturn1file5
+- **Brief Summary:** Covers decision networks and policies for sequential choice under uncertainty, and KNN’s instance-based classification using distance metrics. 
 - **Key Takeaways:**
   - Decision diagrams and backward induction optimize sequences under uncertainty.
   - KNN simplicity comes at the cost of prediction latency and feature sensitivity.
   - Value of Information quantifies data acquisition benefits.
 
 ### 7.1: Perceptron (7.1.pdf)
-- **Brief Summary:** Introduces the Perceptron as a binary linear classifier updating weights on misclassification, guaranteed to converge on linearly separable data. citeturn1file4
+- **Brief Summary:** Introduces the Perceptron as a binary linear classifier updating weights on misclassification, guaranteed to converge on linearly separable data. 
 - **Key Takeaways:**
   - Perceptron is the simplest neural model building block.
   - Convergence holds only if data is linearly separable.
   - Forms theoretical basis for multi-layer networks.
 
 ### 8.1: Gradient Boosting (8.1.pdf)
-- **Brief Summary:** Describes gradient boosting as an ensemble of decision trees trained sequentially to correct residuals via gradient descent, with shrinkage and depth controlling overfitting. citeturn1file3
+- **Brief Summary:** Describes gradient boosting as an ensemble of decision trees trained sequentially to correct residuals via gradient descent, with shrinkage and depth controlling overfitting. 
+
 - **Key Takeaways:**
   - Sequential tree-building refines model errors iteratively.
   - Learning rate (shrinkage) and tree depth are key regularizers.
   - Highly accurate but may be slow and sensitive to parameter tuning.
 
 ### 9.1: Support Vector Machines (9.1.pdf)
-- **Brief Summary:** Overview of SVM as a binary classifier that finds the maximum-margin hyperplane, with kernel tricks (linear, polynomial, RBF) enabling non-linear separation. citeturn1file2
+- **Brief Summary:** Overview of SVM as a binary classifier that finds the maximum-margin hyperplane, with kernel tricks (linear, polynomial, RBF) enabling non-linear separation. 
 - **Key Takeaways:**
   - Margin maximization enhances generalization.
   - Kernel functions extend SVM to non-linear tasks.
   - Performance trade-offs include accuracy vs. computational cost.
 
 ### 12.1: Neural Network Experimental Report (12.1.pdf)
-- **Brief Summary:** Two experiments used a visual neural network simulator on synthetic datasets—one shallow Tanh-based network separating two classes; another deeper ReLU-based network accurately classifying a grid pattern—demonstrating activation and depth effects. citeturn1file1
+- **Brief Summary:** Two experiments used a visual neural network simulator on synthetic datasets—one shallow Tanh-based network separating two classes; another deeper ReLU-based network accurately classifying a grid pattern—demonstrating activation and depth effects. 
 - **Key Takeaways:**
   - Simple architectures with Tanh can learn smooth decision boundaries.
   - Deeper ReLU networks excel on complex patterns without overfitting.

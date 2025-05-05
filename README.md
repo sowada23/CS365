@@ -111,6 +111,42 @@ The `InClassActivities/slides` folder contains various slide decks from course l
 ---
 
 
+## Projects
+
+### Handwritten Digit Recognition: CNN on MNIST
+This project builds a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) using the MNIST dataset.
+
+**What I Did:**
+1. **Data Preprocessing:**
+   - Loaded the MNIST dataset via `tensorflow.keras.datasets.mnist`.
+   - Normalized pixel values to the range [0, 1] and reshaped images to `(28, 28, 1)`.
+   - One-hot encoded the labels for training.
+2. **Model Architecture:**
+   - Built two convolutional blocks (`Conv2D → MaxPooling2D → BatchNormalization → LeakyReLU`).
+   - Flattened and added two dense layers, ending in a 10-unit `softmax` for digit classes.
+3. **Training & Evaluation:**
+   - Compiled with the Adam optimizer and sparse categorical cross-entropy loss.
+   - Trained for 20 epochs with an 80/20 train/validation split, recording loss and accuracy.
+   - Evaluated on the held-out test set.
+4. **Visualization:**
+   - Plotted training vs. validation accuracy and loss over epochs:
+     ![Accuracy Plot](accuracy_plot.png)
+     ![Loss Plot](loss_plot.png)
+   - Observed smooth convergence in the loss curves and high (>98%) validation accuracy by epoch 20.
+
+**Key Takeaways:**
+- Gained hands-on experience designing and tuning a CNN for image classification.
+- Saw firsthand how monitoring training/validation curves helps detect overfitting and guides hyperparameter adjustments.
+- Reinforced best practices in data normalization, model checkpointing, and result visualization.
+
+**How to Run:**
+```bash
+python main.py
+```
+
+---
+
+
 ## How to Use This Repository
 
 1. **Navigate to the Activities or Labs Folder:**  

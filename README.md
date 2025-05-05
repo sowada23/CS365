@@ -146,21 +146,6 @@ python main.py
 
 ---
 
-
-## How to Use This Repository
-
-1. **Navigate to the Activities or Labs Folder:**  
-   Each activity or lab is organized into its respective folder. Inside each part, you'll find Python scripts, datasets, and documentation.
-
-2. **Run the Code:**  
-   Follow the instructions in the `README.md` files inside each activity or lab part to run the code.
-
-3. **Explore the Projects Folder:**  
-   The `Projects/` folder contains additional course projects that build on the concepts learned in the labs and activities.
-
----
-
-
 ## Slides Overview
 
 ### 1.1: Birth of AI (1.1.pdf)
@@ -233,4 +218,17 @@ python main.py
   - Deeper ReLU networks excel on complex patterns without overfitting.
   - Learning rate tuning is critical for stable convergence.
 
+
+## How to Use This Repository
+
+1. **Navigate to the Activities or Labs Folder:**  
+   Each activity or lab is organized into its respective folder. Inside each part, you'll find Python scripts, datasets, and documentation.
+
+2. **Run the Code:**  
+   Follow the instructions in the `README.md` files inside each activity or lab part to run the code.
+
+3. **Explore the Projects Folder:**  
+   The `Projects/` folder contains additional course projects that build on the concepts learned in the labs and activities.
+
+---
 
